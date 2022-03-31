@@ -1,0 +1,5 @@
+create database twitter_analysis_v2;
+use twitter_analysis_v2;
+create table twitter_analysis_v2(Username varchar(3600), Followers integer(100), Tweets int(100),
+Retweets int(100), Text varchar(3600), Date varchar(20), Location varchar(3600), Hashtags varchar(3600), Sentiment
+varchar(20));
